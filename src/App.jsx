@@ -1,14 +1,14 @@
 import './App.css'
-import Authenticate from "./authenticate";
-import SignUpForm from "./signupform";
+import Authenticate from "./Authenticate";
+import SignUpForm from "./SignUpForm";
 
 
 function App() {
 
   return (
     <>
-    <Authenticate />
-    <SignUpForm />
+    <Authenticate/>
+    <SignUpForm/>
     </>
   )
 }
