@@ -1,10 +1,14 @@
 import './App.css'
+import Authenticate from "./authenticate";
+import SignUpForm from "./signupform";
+
 
 function App() {
 
   return (
     <>
-    <div>PlaceHolder</div>
+    <Authenticate />
+    <SignUpForm />
     </>
   )
 }
