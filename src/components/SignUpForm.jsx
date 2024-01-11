@@ -22,13 +22,12 @@ function SignUpForm({setToken}) {
           setError(error.message);
         }
     }
-
     return(
         <>
-        <h2>Sign Up!</h2>;
+        <h2>Sign Up!</h2>
         <form onSubmit={handleSubmit}>
         <label>
-            Username: <input value={userName} onChange={(e) => setUserName(e.target.value)} />
+            Username: <input maxLength={8} value={userName} onChange={(e) => setUserName(e.target.value)} />
         </label>
         <label>
             Password: <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />

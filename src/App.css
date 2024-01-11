@@ -1,7 +1,26 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
+.wrap{
+  background-color: black;
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.authy{
+  color: aqua;
+}
+
+.signUp{
+padding-top: 20rem;
+
+
+
+
+}

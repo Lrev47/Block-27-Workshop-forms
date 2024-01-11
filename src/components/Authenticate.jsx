@@ -18,6 +18,7 @@ async function handleClick() {
             );
             const result = await response.json();
             setSuccessMessage(result.message);
+            console.log(successMessage)
           } catch (error) {
             setError(error.message);
           }
